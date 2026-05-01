@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3de0211d638ec4c93b928582672362, type: 3}
+  m_Name: PrisonerDatabase
+  m_EditorClassIdentifier: 
+  prisoners:
+  - templateId: PSN_Skinny_01
+    displayName: "\uC2E0\uACBD\uC9C8\uC801 \uBA78\uCE58"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: dfe97cbaba82bf6428d21827e5b8706c,
+      type: 3}
+    aiType: 0
+    traitType: 0
+    hp: 20
+    atk: 5
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Skinny_02
+    displayName: "\uC2E0\uACBD\uC9C8\uC801 \uBA78\uCE58"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 2707446b72e65d7409bb0a424c8539f2,
+      type: 3}
+    aiType: 0
+    traitType: 0
+    hp: 20
+    atk: 5
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Skinny_03
+    displayName: "\uC2E0\uACBD\uC9C8\uC801 \uBA78\uCE58"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 51c758c931bf7b341a11ddbae01d902a,
+      type: 3}
+    aiType: 0
+    traitType: 0
+    hp: 20
+    atk: 5
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Muscular_01
+    displayName: "\uADFC\uC721\uC9C8\uC758 \uAC70\uAD6C"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 6fc76a0c0f403124abb0ffcd89787a6a,
+      type: 3}
+    aiType: 0
+    traitType: 1
+    hp: 40
+    atk: 15
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Muscular_02
+    displayName: "\uADFC\uC721\uC9C8\uC758 \uAC70\uAD6C"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 740c432eebf112643b79e7ebd19fc01d,
+      type: 3}
+    aiType: 0
+    traitType: 1
+    hp: 40
+    atk: 15
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Muscular_03
+    displayName: "\uADFC\uC721\uC9C8\uC758 \uAC70\uAD6C"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 2aee0c8672bb2a04a9ba38dd6022c63c,
+      type: 3}
+    aiType: 0
+    traitType: 1
+    hp: 40
+    atk: 15
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Gang_01
+    displayName: "\uBB38\uC2E0\uD55C \uAC31\uB2E8\uC6D0"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 6e5be430420a72d409f6d5ff8df57c99,
+      type: 3}
+    aiType: 0
+    traitType: 2
+    hp: 30
+    atk: 10
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Gang_02
+    displayName: "\uBB38\uC2E0\uD55C \uAC31\uB2E8\uC6D0"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: bb62b4baeb1cf16478d829950d292912,
+      type: 3}
+    aiType: 0
+    traitType: 2
+    hp: 30
+    atk: 10
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Gang_03
+    displayName: "\uBB38\uC2E0\uD55C \uAC31\uB2E8\uC6D0"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: a32c67777d4dc6e42a77de138258f1e5,
+      type: 3}
+    aiType: 0
+    traitType: 2
+    hp: 30
+    atk: 10
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Elite_01
+    displayName: "\uC778\uD154\uB9AC \uC0AC\uAE30\uAFBC"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: c037bbe8fe2d53e4bb4f4382496b1bf9,
+      type: 3}
+    aiType: 0
+    traitType: 3
+    hp: 30
+    atk: 5
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Elite_02
+    displayName: "\uC778\uD154\uB9AC \uC0AC\uAE30\uAFBC"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 5b6be71abf7b1c14cb83f3c529bc2d20,
+      type: 3}
+    aiType: 0
+    traitType: 3
+    hp: 30
+    atk: 5
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_Elite_03
+    displayName: "\uC778\uD154\uB9AC \uC0AC\uAE30\uAFBC"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 3c1483ec9eb3f5043a84028995f23644,
+      type: 3}
+    aiType: 0
+    traitType: 3
+    hp: 30
+    atk: 5
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC560\uB2C8\uBA54\uC774\uC158 \uBD84\uB9AC"
+  - templateId: PSN_GoatHead
+    displayName: "\uC5FC\uC18C"
+    prisonerPrefab: {fileID: 6685874147777418716, guid: ae9fbf9c99b16da45bb3e56a15aee610,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 30
+    atk: 0
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC774\uBCA4\uD2B8 \uAC1C\uCCB4"
+  - templateId: PSN_BikiniModel
+    displayName: "\uADFC\uC721\uBE44\uD0A4\uB2C8"
+    prisonerPrefab: {fileID: 6650839560293477269, guid: 130e10b7c87ec2444b1507c3a19d92ea,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 40
+    atk: 15
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC774\uBCA4\uD2B8 \uAC1C\uCCB4"
+  - templateId: PSN_FrankeA
+    displayName: "\uAC00\uC9DC\uD504\uB7AD\uD06CA"
+    prisonerPrefab: {fileID: 5788057086556402941, guid: 191bb28a387f5464b9ca3dd9dcb90992,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 30
+    atk: 10
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uAC00\uC9DC\uD504\uB7AD\uD06C"
+  - templateId: PSN_FrankeB
+    displayName: "\uAC00\uC9DC\uD504\uB7AD\uD06CB"
+    prisonerPrefab: {fileID: 5788057086556402941, guid: b99197a6a10b3ed4ca7bea8b8b8d08d0,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 30
+    atk: 10
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uAC00\uC9DC\uD504\uB7AD\uD06C"
+  - templateId: PSN_FrankeR
+    displayName: "\uC9C4\uC9DC\uD504\uB7AD\uD06C"
+    prisonerPrefab: {fileID: 5788057086556402941, guid: 0590f93ccfd71984b8507164d0b132e3,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 40
+    atk: 10
+    spd: 2
+    isQte: 0
+    qteId: 
+    info: "\uC9C4\uC9DC\uD504\uB7AD\uD06C"
+  - templateId: Suspect1
+    displayName: "\uC6A9\uC758\uC79001"
+    prisonerPrefab: {fileID: 8612335737029097234, guid: 99413ce9abbd16c4cb7ec17663d1c973,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 40
+    atk: 10
+    spd: 1
+    isQte: 0
+    qteId: 
+    info: "\uC6A9\uC758\uC790"
+  - templateId: Suspect2
+    displayName: "\uC6A9\uC758\uC79002"
+    prisonerPrefab: {fileID: 1687137758933540845, guid: c4b5ab80b3ae69247890f29ae133c007,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 40
+    atk: 10
+    spd: 1
+    isQte: 0
+    qteId: 
+    info: "\uC6A9\uC758\uC790"
+  - templateId: Suspect3
+    displayName: "\uC6A9\uC758\uC79003"
+    prisonerPrefab: {fileID: 7624414444420327873, guid: 58bab4f7ce633234e885d27e6740ecf3,
+      type: 3}
+    aiType: 0
+    traitType: 4
+    hp: 40
+    atk: 10
+    spd: 1
+    isQte: 0
+    qteId: 
+    info: "\uC6A9\uC758\uC790"

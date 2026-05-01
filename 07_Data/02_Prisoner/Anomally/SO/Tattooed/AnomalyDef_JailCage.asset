@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9174bb8ce3a17c499c26c1a1d4d66c3, type: 3}
+  m_Name: AnomalyDef_JailCage
+  m_EditorClassIdentifier: 
+  anomalyId: 40
+  kind: 3
+  targetType: 2
+  category: 1
+  targetPrisoner: 2
+  minRiotGauge: 0
+  normalPrefab: {fileID: 7677688428710768505, guid: a97cbdc5b6691984c9dafa4185a41b29,
+    type: 3}
+  suspiciousPrefab: {fileID: 8195014934283906854, guid: cc08cad7e0a1dd14fb2c197a1d9e8bd2,
+    type: 3}
+  normalDesc: 
+  suspiciousDesc: 
+  alwaysSpawnNormal: 0
+  isDecorative: 1
+  validThemes: 16

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9174bb8ce3a17c499c26c1a1d4d66c3, type: 3}
+  m_Name: AnomalyDef_Planter
+  m_EditorClassIdentifier: 
+  anomalyId: 53
+  kind: 20
+  targetType: 0
+  category: 1
+  targetPrisoner: 3
+  minRiotGauge: 0
+  normalPrefab: {fileID: 485468328366803338, guid: 9ccfb5f1efc40a646aea5e3673ca3dfe,
+    type: 3}
+  suspiciousPrefab: {fileID: 485468328366803338, guid: 54266a302ff15cd4a812eb92fc2d4150,
+    type: 3}
+  normalDesc: 
+  suspiciousDesc: 
+  alwaysSpawnNormal: 0
+  isDecorative: 1
+  validThemes: 16

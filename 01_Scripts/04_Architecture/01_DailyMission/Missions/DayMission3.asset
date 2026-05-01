@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e3f6e9413716248b8700408601da4b, type: 3}
+  m_Name: DayMission3
+  m_EditorClassIdentifier: 
+  title: FindVisualAnomaly
+  description: "\uC774\uC0C1 \uD589\uB3D9\uC744 \uD558\uB294 \uC8C4\uC218\uB97C \uCC98\uBC8C\uD574\uB77C!"
+  missionId: Mission03
+  missionTheme: 4
+  targetScore: 6
+  missionTimeLimit: 240
+  GoalName: "\uC9C4\uC555\uD55C \uC774\uC0C1 \uD589\uB3D9 \uC8C4\uC218"
+  missionTextNo: 3
+  targetSuspiciousCount: 6
+  missionCountDown: 0
+  defaultAI: 0
+  specialAIList: 090000000a0000000b0000000a000000
+  specialVisualList: 0100000002000000

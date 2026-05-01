@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae943089717b574a8c4bb9353fb89f3, type: 3}
+  m_Name: DayMission4
+  m_EditorClassIdentifier: 
+  title: FindImposter
+  description: "\uC120\uC784 \uAD50\uB3C4\uAD00\uC73C\uB85C \uBD84\uC7A5\uD55C \uC8C4\uC218
+    3\uBA85\uACFC \uC9C4\uC9DC \uC120\uC784 \uAD50\uB3C4\uAD00\uC774 \uC11E\uC5EC
+    \uC788\uB2E4. \uC774\uB4E4 \uC911 \uC9C4\uC9DC \uC120\uC784\uC744 \uCC3E\uC544\uC57C
+    \uD55C\uB2E4."
+  missionId: Mission04
+  missionTheme: 8
+  targetScore: 2
+  missionTimeLimit: 180
+  GoalName: "\uAC00\uC9DC '\uD504\uB7AD\uD06C'\uB97C \uC9C4\uC555\uD558\uAE30"
+  missionTextNo: 4
+  realFrankType: 5
+  fakeFrankTypes: 0300000004000000
+  failReasonText: "\uC9C4\uC9DC \uD504\uB7AD\uD06C\uB97C \uACF5\uACA9\uD558\uC5EC
+    \uC81C\uC555 \uC2E4\uD328"
+  dialogueTriggers:
+  - triggerId: Mission04
+    dialogue: {fileID: 11400000, guid: b8e44f66f877da7489167ace95d36fb0, type: 2}
+    triggerPrefab: {fileID: 6471400449994269247, guid: 92239615c8a983e4e9cb8f9ad6b33468,
+      type: 3}
+    spawnPosition: {x: 0.164, y: 5.244, z: 3.623}
+    spawnRotation: {x: 0, y: 0, z: 0}
+  failSequence: {fileID: 11400000, guid: f02fba57e340f76458b395c063ecf9b0, type: 2}
+  successSequence: {fileID: 11400000, guid: 835169998c7fd6044a113f3f00677075, type: 2}
